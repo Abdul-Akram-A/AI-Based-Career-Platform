@@ -25,7 +25,7 @@ if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
 # Path to pre-trained models
-model_path = ".././Models"
+model_path = os.path.join(os.path.dirname(__file__), "Models")
 
 # Load pre-trained models
 svc_model = pickle.load(open(os.path.join(model_path, 'clf.pkl'), 'rb'))
