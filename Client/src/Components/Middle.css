@@ -1,0 +1,8 @@
+.min-vh-80 {
+    min-height: 80vh;
+    background-color: rgba(115, 117, 118, 0.295);
+}
+
+.inner {
+    background: transparent;
+}

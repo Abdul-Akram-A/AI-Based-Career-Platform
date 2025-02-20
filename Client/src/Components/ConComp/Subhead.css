@@ -1,0 +1,39 @@
+.subhead {
+    position: relative;
+    text-align: center;
+    margin: 0 0 1.3rem 0;
+    width: 100%;
+}
+
+.subhead .cus-btn {
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    display: inline;
+}
+
+.subhead h4 {
+    display: inline;
+}
+
+
+
+@media screen and (max-width: 575px) {
+    .subhead {
+        margin: 0 0 0 0;
+    }
+
+    .subhead h4 {
+        display: block;
+    }
+
+    .subhead .cus-btn {
+        display: block;
+        position: relative;
+        font-size: 0.9rem;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 1rem;
+
+    }
+}

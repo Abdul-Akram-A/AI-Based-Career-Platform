@@ -1,0 +1,22 @@
+.Logo img {
+    width: 220px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.Logo img:hover {
+    transform: scale(1.1);
+}
+
+.im-bg {
+    background-color: rgba(146, 79, 141, 0.488);
+    padding: 1rem;
+    border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .Logo img {
+        width: 260px;
+    }
+}

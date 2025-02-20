@@ -1,0 +1,42 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.f-bg {
+    background: transparent;
+}
+
+.w-prop-1 {
+    width: 25%;
+}
+
+.w-prop-2 {
+    width: 75%;
+}
+
+.custom-field-con {
+    display: flex;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+    .text-xs-center {
+        text-align: center;
+    }
+
+    .custom-field-con {
+        display: block;
+    }
+
+    .w-prop-1,
+    .w-prop-2 {
+        width: 100%;
+    }
+
+    .lmb {
+        margin-top: 1rem;
+    }
+
+}
